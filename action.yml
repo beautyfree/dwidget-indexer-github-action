@@ -2,12 +2,6 @@ name: 'dWidget Indexer'
 description: 'Creates index.json from all metadata.json'
 author: 'Alexey Elizarov'
 
-# Define your inputs here.
-inputs:
-
-# Define your outputs here.
-outputs:
-
 runs:
   using: node20
   main: dist/index.js

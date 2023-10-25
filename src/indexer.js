@@ -1,3 +1,7 @@
+const glob = require('@actions/glob');
+const fs = require('fs');
+const path = require('path');
+
 async function indexer() {
   // Use glob to find all metadata.json files in subdirectories
   const globber = await glob.create("**/metadata.json");
